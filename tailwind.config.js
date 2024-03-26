@@ -7,9 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        satisfy: ['Satisfy', 'cursive'],
-        elite: ["Special Elite", 'system-ui'],
-        fre: ["Fredericka the Great", 'serif']
+        poppins: ["Poppins", 'sans-serif'],
+        edu: ["Edu NSW ACT Foundation", 'cursive']
       }
     },
   },
