@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        cor: ["Courgette", 'cursive'],
         poppins: ["Poppins", 'sans-serif'],
         edu: ["Edu NSW ACT Foundation", 'cursive']
       }

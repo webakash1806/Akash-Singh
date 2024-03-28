@@ -5,11 +5,10 @@ import About from './Pages/About'
 
 const App = () => {
   return (
-    <div className='bg-[#000]'>
+    <div className=''>
       <Header />
       <Home />
-      about
-      {/* <About /> */}
+      <About />
       {/* <p>Hello</p> */}
     </div>
   )

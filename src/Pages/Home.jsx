@@ -10,7 +10,7 @@ const Home = () => {
         <div className={`bg-[url('/src/assets/heroImg.png')] bg-cover bg-no-repeat overflow-hidden bg-center w-[100%] h-[43rem] sm:h-[100vh]  
        relative`}>
             <div className="relative bg-[#000000e0]">
-                <div className="flex h-[100vh] w-[100%]  pt-60 justify-start items-center">
+                <div className="flex h-fit w-[100%] md:pt-20 sm:pt-40 pt-60 justify-start items-center">
                     <svg className="BgAnimation__svg w-[60rem] h-[45rem]" viewBox="0 0 802 802" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g opacity="0.15">
                             <path fillRule="evenodd" clipRule="evenodd" d="M201.337 87.437C193.474 79.5738 180.725 79.5738 172.862 87.437L87.437 172.862C79.5739 180.725 79.5739 193.474 87.437 201.337L400.663 514.563C408.526 522.426 421.275 522.426 429.138 514.563L514.563 429.138C522.426 421.275 522.426 408.526 514.563 400.663L201.337 87.437ZM30.4869 115.912C-8.82897 155.228 -8.82897 218.972 30.4869 258.287L343.713 571.513C383.028 610.829 446.772 610.829 486.088 571.513L571.513 486.088C610.829 446.772 610.829 383.028 571.513 343.713L258.287 30.4869C218.972 -8.82896 155.228 -8.82896 115.912 30.4869L30.4869 115.912Z" stroke="url(#paint0_radial)" id="path_0">
@@ -30,8 +30,8 @@ const Home = () => {
             </div>
             <div className='absolute top-0 flex flex-col-reverse items-center md:justify-around justify-center w-[99.5vw]  md:flex-row left-1 h-[43rem]'>
                 <div className='flex flex-col gap-[2px]'>
-                    <h1 className='text-[2.6rem] text-white font-[500] font-poppins tracking-wide'>Hello - I am</h1>
-                    <p className='font-poppins text-[1.9rem] font-[550] text-white tracking-wide'>
+                    <h1 className='text-[2.4rem] text-white font-[500] font-cor tracking-wide'>Hello - I am</h1>
+                    <p className='font-cor text-[1.9rem] font-[550] text-white tracking-wide'>
                         <Typewriter
                             options={{
                                 strings: ['Akash Kumar Singh', 'Web Developer', 'Web Designer'],
@@ -40,10 +40,8 @@ const Home = () => {
                             }}
                         />
                     </p>
-                    <p className='text-[#f2f2f2] font-edu text-[1.1rem] max-w-[26rem] lg:max-w-[30rem] mt-1 tracking-wide'>Highly motivated and detail-oriented
-                        MERN Stack Web Developer with a strong
-                        foundation in front-end and back-end
-                        technologies.</p>
+                    <p className='text-[#f2f2f2] font-poppins text-[1rem] max-w-[26rem] lg:max-w-[30rem] mt-1 tracking-wide'>Highly motivated and detail-oriented
+                        MERN Stack Web Developer with a strong foundation in front-end and back-end technologies.</p>
                     <Link target='_blank' to="https://drive.google.com/file/d/1r3DyCAMkcAeIE4uch_iv_6wC15jZC0Tw/view?usp=sharing" className='p-2 mt-4 static bg-transparent text-white font-[600] tracking-wide text-[1.05rem] px-4 border-[1.8px] border-[#1BFD9C] rounded-md w-fit shadow-[0px_0px_7px_#1BFD9C_inset] hover:shadow-[0px_0px_10px_#1BFD9C] transition-all duration-700'><FontAwesomeIcon className='mr-2' icon={faArrowRight} />Download CV!</Link>
                 </div>
                 <div className='max-w-[24rem] md:max-w-[28rem] md:h-[22rem] h-[18rem] mb-4'>
