@@ -16,9 +16,9 @@ import { FiGithub } from "react-icons/fi";
 const About = () => {
     const skillsStyle = 'flex  items-center justify-between px-1 pr-2 text-white text-[0.87rem] tracking-wide font-semibold'
     return (
-        <div className='bg-[#141219ce] font-poppins flex flex-col items-center justify-center text-white py-10'>
+        <div className='bg-[#141219ce] font-poppins flex flex-col items-center justify-center text-white py-10 p-2'>
             <img src={aboutBg} alt="" className='fixed left-0 top-16 h-[100vh] w-[100%] z-[-20]' />
-            <div className='flex flex-col gap-3 md:flex-row md:items-end md:justify-center'>
+            <div className='flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-center'>
                 <div>
                     <div className='flex items-center justify-start gap-2'>
                         <p className='font-semibold tracking-widest text-[#c6c5c5]'>ABOUT </p>
@@ -49,7 +49,7 @@ const About = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consectetur dolorum? Quis excepturi corporis nostrum inventore reprehenderit sit quidem, expedita ad animi voluptas tempora enim assumenda, a accusamus consequatur molestiae omnis consequuntur quos, laudantium aut doloremque dolorum necessitatibus ex? Eveniet.</p>
                 </div>
             </div>
-            <div className='w-full py-8 px-14'>
+            <div className='w-full py-8 sm:px-14'>
 
                 <div className='flex flex-col items-center justify-center w-full md:gap-8 md:flex-row md:items-end'>
                     <div className='w-full md:w-[35%] flex flex-col gap-3'>
