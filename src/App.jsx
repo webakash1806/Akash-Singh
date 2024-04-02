@@ -6,7 +6,7 @@ import Resume from './Pages/Resume'
 
 const App = () => {
   return (
-    <div className=''>
+    <div>
       <Header />
       <Home />
       <About />
