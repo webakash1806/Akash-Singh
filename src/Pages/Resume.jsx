@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom'
 import { IoIosLink, IoMdArrowBack } from "react-icons/io";
 import backendCertificate from '../assets/backendCert.png'
 import fullStackCertificate from '../assets/fullCert.png'
+import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
+import { SiTailwindcss, SiMui, SiExpress, SiDaisyui, SiRedux, SiMongodb } from "react-icons/si";
+import { GoDotFill } from "react-icons/go";
 
 const Resume = () => {
 
@@ -173,6 +176,17 @@ const Resume = () => {
                         <div className='relative flex flex-col gap-3 pb-10 pl-6 ml-2 border-l-[1.6px] border-[#808080c1] rounded-t-lg'>
                             <div className='w-4 absolute left-[-8.5px] top-[0.5px] h-4 rounded-full bg-[#18D26E]'></div>
                             <h3 className='text-[1.2rem] font-semibold text-[#18D26E]'>ZENSTUDY (LMS-MERN)</h3>
+
+                            <div className='flex flex-wrap items-center justify-start gap-2'>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <FaReact /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <SiTailwindcss /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <SiRedux /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <FaNodeJs /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <SiExpress /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <SiMongodb /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[5px] rounded-full text-[1.75rem]'> <SiDaisyui /> </div>
+                            </div>
+
                             <p className='text-[0.98rem] leading-[22px] italic tracking-wide font-200'>
                                 ZenStudy is an innovative Learning Management System (LMS)
                                 built on the MERN (MongoDB, Express.js, React.js, Node.js) stack.
@@ -192,12 +206,21 @@ const Resume = () => {
                                 <li className='font-300'>Built on the MERN stack for scalability and robust
                                     performance.</li>
                             </ul>
+                            <div className='flex gap-3 pl-3'>
+                                <Link to="https://github.com/webakash1806/LMS-MERN" target='_blank' className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><FaGithub className='text-[#18D26E]' />Source Code</Link>
+                                <Link to="https://webakash1806.github.io/zenstudy/" target='_blank' className='flex w-fit items-center justify-center gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><GoDotFill className='text-[#18D26E] animate-ping text-[1rem]' />Preview</Link>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="fade-up" className='text-white'>
                         <div className='relative flex flex-col gap-3 pb-3 pl-6 ml-2 border-l-[1.6px] border-[#808080c1] rounded-t-lg'>
                             <div className='w-4 absolute left-[-8.5px] top-[0.5px] h-4 rounded-full bg-[#18D26E]'></div>
                             <h3 className='text-[1.2rem] font-semibold text-[#18D26E]'>CRYPTOWORLD</h3>
+                            <div className='flex items-center justify-start gap-2'>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <FaReact /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <SiTailwindcss /> </div>
+                                <div className='text-[#18D26E] bg-[#2F2F2F] p-[10px] rounded-full text-[1.1rem]'> <SiMui /> </div>
+                            </div>
                             <p className='text-[0.98rem] leading-[22px] italic tracking-wide font-200'>
                                 CryptoWorld provides real-time currency conversion options,
                                 allowing users to view cryptocurrency prices in their
@@ -219,6 +242,10 @@ const Resume = () => {
                                     timeframes and zoom in to analyze price changes in detail.</li>
 
                             </ul>
+                            <div className='flex gap-3 pl-3'>
+                                <Link to="https://github.com/webakash1806/cryptoworld" target='_blank' className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><FaGithub className='text-[#18D26E]' />Source Code</Link>
+                                <Link target='_blank' to="https://webakash1806.github.io/cryptoworld/" className='flex w-fit items-center justify-center gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><GoDotFill className='text-[#18D26E] animate-ping text-[1rem]' />Preview</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
