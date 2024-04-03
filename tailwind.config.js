@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         cor: ["Courgette", 'cursive'],
+        roboto: ["Roboto", 'sans-serif'],
+
         poppins: ["Poppins", 'sans-serif'],
         edu: ["Edu NSW ACT Foundation", 'cursive']
       }

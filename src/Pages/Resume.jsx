@@ -11,19 +11,21 @@ const Resume = () => {
     const [backActive, setBackActive] = useState(false)
     const [fullActive, setFullActive] = useState(false)
 
-
     useEffect(() => {
         AOS.init();
         AOS.refresh();
     }, []);
     return (
         <>
-            <div className={`flex ${backActive ? "block" : "hidden"} items-center justify-center p-1`}>
-                <img src={backendCertificate} alt="" className='fixed top-16 z-[500] md:w-[70vw] lg:w-[55%]' />
-            </div>
-            <div className={`flex flex-col ${fullActive ? "block" : "hidden"} items-center justify-start p-1 fixed h-[100vh] top-14 z-[500] bg-[#111111]`}>
-                <div className='w-full bg-[#3a3a3abe]'>
-                    <div className='flex pl-4 p-1 cursor-pointer items-center gap-2 font-semibold justify-start text-[#18D26E]'><IoMdArrowBack />Back</div>
+            <div className={`flex flex-col ${backActive ? "block" : "hidden"} items-center justify-center p-1 fixed h-[100vh] top-0 z-[500] bg-[#11111177] w-[100%]`}>
+                <div className='md:w-[70vw] lg:w-[55%] w-full bg-[#2a2a2a]'>
+                    <div onClick={() => setBackActive(false)} className='flex pl-4 p-1 cursor-pointer items-center gap-2 font-semibold justify-start text-[#18D26E] '><IoMdArrowBack />Back</div>
+                </div>
+                <img src={backendCertificate} alt="" className=' md:w-[70vw] lg:w-[55%]' />
+            </div >
+            <div className={`flex flex-col ${fullActive ? "block" : "hidden"} items-center justify-center p-1 fixed h-[100vh] top-0 z-[500] bg-[#111111bb] w-[100%]`}>
+                <div className='md:w-[70vw] lg:w-[55%] w-full bg-[#282828]'>
+                    <div onClick={() => setFullActive(false)} className='flex pl-4 p-1 cursor-pointer items-center gap-2 font-semibold justify-start text-[#18D26E] '><IoMdArrowBack />Back</div>
                 </div>
                 <img src={fullStackCertificate} alt="" className=' md:w-[70vw] lg:w-[55%]' />
             </div >
