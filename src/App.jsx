@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import Header from './Components/Header'
 import About from './Pages/About'
 import Resume from './Pages/Resume'
+import Portfolio from './Pages/Portfolio'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <About />
       <Resume />
+      <Portfolio />
       {/* <p>Hello</p> */}
     </div>
   )
