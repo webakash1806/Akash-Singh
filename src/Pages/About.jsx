@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import aboutBg from '../assets/aboutBg.jpg'
 import aboutBoy from '../assets/aboutBoy.jpg'
+import aboutVideo from '../assets/aboutVideo.mp4'
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { TbBrandHtml5, TbBrandRedux } from "react-icons/tb";
 import { RiCss3Line } from "react-icons/ri";
@@ -30,11 +31,12 @@ const About = () => {
                         <div className='w-20 h-[0.85px] bg-[#18D26E]'></div>
                     </div>
                     <p data-aos="fade-up" className='text-white text-[1.8rem] tracking-wide font-poppins font-semibold uppercase'>Know more about me</p>
-                    <img data-aos="fade-up" src={aboutBoy} alt="" className='w-[20rem]' />
+
+                    <video src={aboutVideo} loop autoPlay playsInline muted data-aos="fade-up" className='w-[20rem] h-[21rem] rounded object-cover bg-[#343232]'></video>
                 </div>
                 <div className='max-w-[40rem] flex flex-col gap-3'>
-                    <h1 data-aos="fade-up" className='text-[#18D26E] font-semibold tracking-wide text-[1.6rem]'>Web developer MERN</h1>
-                    <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam totam dicta, qui voluptatem recusandae dolores ratione odit voluptatibus optio molestias.</p>
+                    <h1 data-aos="fade-up" className='text-[#18D26E] font-semibold tracking-wide text-[1.6rem] '>Web developer - MERN Stack</h1>
+                    <p data-aos="fade-up" className='italic tracking-wide'>MERN Stack web developer proficient in MongoDB, Express.js, React.js, and Node.js. Skilled in crafting dynamic, user-centric web applications.</p>
                     <div className='flex flex-col md:items-center gap-1 md:gap-[10rem] md:flex-row'>
                         <div className='flex flex-col gap-2'>
                             <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><LiaBirthdayCakeSolid className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Birthday:</span>18th Dec 2004</p>
@@ -51,7 +53,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consectetur dolorum? Quis excepturi corporis nostrum inventore reprehenderit sit quidem, expedita ad animi voluptas tempora enim assumenda, a accusamus consequatur molestiae omnis consequuntur quos, laudantium aut doloremque dolorum necessitatibus ex? Eveniet.</p>
+                    <p data-aos="fade-up">As a MERN Stack web developer, I craft dynamic web applications using MongoDB, Express.js, React.js, and Node.js. I excel in both frontend and backend development, ensuring clean code and user-friendly experiences. With a passion for innovation, I stay updated on emerging technologies to deliver top-notch solutions.</p>
                 </div>
             </div>
             <div data-aos="fade-up" className='w-full py-8 sm:px-14'>
