@@ -36,7 +36,7 @@ const About = () => {
                 </div>
                 <div className='max-w-[40rem] flex flex-col gap-3'>
                     <h1 data-aos="fade-up" className='text-[#18D26E] font-semibold tracking-wide text-[1.6rem] '>Web developer - MERN Stack</h1>
-                    <p data-aos="fade-up" className='italic tracking-wide'>MERN Stack web developer proficient in MongoDB, Express.js, React.js, and Node.js. Skilled in crafting dynamic, user-centric web applications.</p>
+                    <p data-aos="fade-up" className='italic tracking-wide/<?/'>MERN Stack web developer proficient in MongoDB, Express.js, React.js, and Node.js. Skilled in crafting dynamic, user-centric web applications.</p>
                     <div className='flex flex-col md:items-center gap-1 md:gap-[10rem] md:flex-row'>
                         <div className='flex flex-col gap-2'>
                             <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><LiaBirthdayCakeSolid className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Birthday:</span>18th Dec 2004</p>
