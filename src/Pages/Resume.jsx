@@ -208,7 +208,7 @@ const Resume = () => {
                             </ul>
                             <div className='flex gap-3 pl-3'>
                                 <Link to="https://github.com/webakash1806/LMS-MERN" target='_blank' className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><FaGithub className='text-[#18D26E]' />Source Code</Link>
-                                <Link to="https://webakash1806.github.io/zenstudy/" target='_blank' className='flex w-fit items-center justify-center gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><GoDotFill className='text-[#18D26E] animate-ping text-[1rem]' />Preview</Link>
+                                <Link to="https://zenstudy.webakash1806.com/" target='_blank' className='flex w-fit items-center justify-center gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><GoDotFill className='text-[#18D26E] animate-ping text-[1rem]' />Preview</Link>
                             </div>
                         </div>
                     </div>
@@ -243,8 +243,8 @@ const Resume = () => {
 
                             </ul>
                             <div className='flex gap-3 pl-3'>
-                                <Link to="https://github.com/webakash1806/cryptoworld" target='_blank' className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><FaGithub className='text-[#18D26E]' />Source Code</Link>
-                                <Link target='_blank' to="https://webakash1806.github.io/cryptoworld/" className='flex w-fit items-center justify-center gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><GoDotFill className='text-[#18D26E] animate-ping text-[1rem]' />Preview</Link>
+                                <Link target='_blank' to="https://github.com/webakash1806/cryptoworld" className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><FaGithub className='text-[#18D26E]' />Source Code</Link>
+                                <Link target='_blank' to="https://cryptoworld.webakash1806.com/" className='flex w-fit items-center justify-center gap-2 bg-[#3a3a3abe] p-2 px-3 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><GoDotFill className='text-[#18D26E] animate-ping text-[1rem]' />Preview</Link>
                             </div>
                         </div>
                     </div>

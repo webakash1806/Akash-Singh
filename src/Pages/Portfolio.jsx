@@ -21,24 +21,15 @@ const Portfolio = () => {
                 </div>
                 <p data-aos="fade-up" className='text-white text-[1.8rem] tracking-wide font-poppins font-semibold uppercase'>Our Works</p>
                 <div className=' columns-1 mx-1 gap-5 lg:gap-8 mt-4 sm:columns-2 lg:columns-3 [&>img:not(:first-child)]:mt-5'>
-
-
                     <Link to={'https://github.com/webakash1806/LMS-MERN'}>
                         <video src={project1} className='rounded mt-6  shadow-[0px_0px_1px_#18D26E]' loop autoPlay playsInline muted alt="portfolio image" ></video>
-
-
                     </Link>
-
-
                     <Link to={'https://github.com/webakash1806/cryptoworld'}>
                         <video src={project2} className='rounded mt-6  shadow-[0px_0px_1px_#18D26E]' loop autoPlay playsInline muted alt="portfolio image" ></video>
                     </Link>
                     <Link to={'https://github.com/webakash1806/snacky'}>
                         <img src={project3} className='rounded mt-6  shadow-[0px_0px_1px_#18D26E]' alt="portfolio image" />
                     </Link>
-
-
-
                     <Link to={'https://github.com/webakash1806/patilkaki-project'}>
                         <img src={project4} className='rounded mt-6 w-full  shadow-[0px_0px_1px_#18D26E]' alt="portfolio image" />
                     </Link>

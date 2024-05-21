@@ -5,7 +5,7 @@ import aboutVideo from '../assets/aboutVideo.mp4'
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { TbBrandHtml5, TbBrandRedux } from "react-icons/tb";
 import { RiCss3Line } from "react-icons/ri";
-import { FaReact, FaCity, FaLinkedinIn } from "react-icons/fa6";
+import { FaReact, FaCity, FaLinkedinIn, FaWhatsapp } from "react-icons/fa6";
 import { SiTailwindcss, SiFreelancer } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
@@ -14,6 +14,7 @@ import { IoCallOutline, IoLogoJavascript } from "react-icons/io5";
 import { FiGithub } from "react-icons/fi";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 const About = () => {
     const skillsStyle = 'flex  items-center justify-between px-1 pr-2 text-white text-[0.87rem] tracking-wide font-semibold'
@@ -46,11 +47,12 @@ const About = () => {
                             <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><SiFreelancer className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Freelance:</span>Available</p>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><IoCallOutline className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Phone:</span>+91 6207234759</p>
-                            <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><CiMail className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Email:</span>itsakash18.06@gmail.com</p>
-                            <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FiGithub className='text-[#18D26E] text-[1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Github:</span>@webakash1806</p>
-                            <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FaLinkedinIn className='text-[#18D26E] text-[1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Linkedin:</span>@itsakash18
-                            </p>
+                            <Link to={`tel:6207234759`} target='_blank' data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><IoCallOutline className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Phone:</span>+91 6207234759</Link>
+                            <Link target={`_blank`} to="https://wa.me/6207234759" data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FaWhatsapp className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Whatsapp:</span>+91 6207234759</Link>
+                            <Link to={`mailto:itsakash18.06@gmail.com`} target='_blank' data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><CiMail className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Email:</span>itsakash18.06@gmail.com</Link>
+                            <Link to={"https://github.com/webakash1806"} target='_blank' data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FiGithub className='text-[#18D26E] text-[1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Github:</span>@webakash1806</Link>
+                            <Link to={"https://www.linkedin.com/in/itsakash18/"} target='_blank' data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FaLinkedinIn className='text-[#18D26E] text-[1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Linkedin:</span>@itsakash18
+                            </Link>
                         </div>
                     </div>
                     <p data-aos="fade-up">As a MERN Stack web developer, I craft dynamic web applications using MongoDB, Express.js, React.js, and Node.js. I excel in both frontend and backend development, ensuring clean code and user-friendly experiences. With a passion for innovation, I stay updated on emerging technologies to deliver top-notch solutions.</p>

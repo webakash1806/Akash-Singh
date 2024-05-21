@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser'
 import { toast } from "react-toastify";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
 
@@ -83,30 +84,30 @@ const Contact = () => {
                             </div>
                             <p><span className="font-semibold">Address: </span>Near V-mart, shiv mandir, Aurangabad, bihar, india</p>
                         </div>
-                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        <Link to={`tel:6207234759`} target='_blank' className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             <div className="flex items-center justify-center border size-[3rem] rounded-full">
                                 <IoIosCall className="text-[1.1rem]" />
                             </div>
                             <p><span className="font-semibold">Phone: </span>+91 6207234759</p>
-                        </div>
-                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        </Link>
+                        <Link to={`mailto:itsakash18.06@gmail.com`} target='_blank' className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             <div className="flex items-center justify-center border size-[3rem] rounded-full">
                                 <MdEmail className="text-[1.1rem]" />
                             </div>
                             <p><span className="font-semibold">Email: </span>itsakash18.06@gmail.com</p>
-                        </div>
-                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        </Link>
+                        <Link to={"https://github.com/webakash1806"} target='_blank' className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             <div className="flex items-center justify-center border size-[3rem] rounded-full">
                                 <FaGithub className="text-[1.1rem]" />
                             </div>
                             <p><span className="font-semibold">Github: </span>@webakash1806</p>
-                        </div>
-                        <div className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
+                        </Link>
+                        <Link to={"https://www.linkedin.com/in/itsakash18/"} target='_blank' className="flex items-center justify-start md:w-[18rem] lg:w-[20rem] gap-2 min-w-[18rem] w-[80vw] sm:w-[24rem]">
                             <div className="flex items-center justify-center border size-[3rem] rounded-full">
                                 <FaLinkedin className="text-[1.1rem]" />
                             </div>
-                            <p><span className="font-semibold">Linkedin: </span>@itsakash1806</p>
-                        </div>
+                            <p><span className="font-semibold">Linkedin: </span>@itsakash18</p>
+                        </Link>
 
                     </div>
                     <form onSubmit={handleSubmit} className="flex flex-col gap-3 shadow-[0px_0px_20px_#1CB362_inset]  p-4 sm:p-8 rounded-t-md md:rounded-r-md md:rounded-tl-none ">
@@ -131,7 +132,7 @@ const Contact = () => {
                         <button type="submit" className="w-full flex items-center justify-center gap-5 mt-2 bg-[#00c954] text-[1.1rem] font-semibold p-2 rounded-md text-white">Submit {loadActive && <div className="size-[1.4rem] border-[0.18rem] rounded-full border-t-transparent animate-spin border-white"></div>} </button>
                     </form>
                 </div>
-                <h1 className='text-[1.5rem] font-semibold text-white mt-10'>UNDER DEVELOPMENT</h1>
+
             </div>
         </div>
     )
