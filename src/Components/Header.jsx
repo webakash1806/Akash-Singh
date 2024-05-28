@@ -138,7 +138,7 @@ const Header = () => {
                         <div className='flex gap-4 mt-3'>
                             <Link to={"https://www.linkedin.com/in/itsakash18/"} target='_blank' className='text-[20px]'><BsLinkedin /></Link>
                             <Link to={"https://github.com/webakash1806"} target='_blank' className='text-[20px]'><FaGithubSquare /></Link>
-                            <Link target={`_blank`} to="https://wa.me/6207234759" className='text-[20px]'><BsWhatsapp /></Link>
+                            <Link target={`_blank`} to="https://wa.me/+916207234759" className='text-[20px]'><BsWhatsapp /></Link>
                             <Link to="https://www.instagram.com/__its_akash.18" target='_blank' className='text-[20px]'><BsInstagram /></Link>
                             <Link to="https://x.com/__its_akash18" target='_blank' className='text-[20px]'><FaSquareXTwitter /></Link>
                         </div>
@@ -165,8 +165,8 @@ const Header = () => {
                             </div>
                             <div className='flex flex-col gap-5 mt-6 '>
                                 <Link to={'/'} className={`${contactStyle} lg:items-center`}><CiClock1 />09:00 - 07:00</Link>
-                                <Link to={'/'} className={`${contactStyle} lg:items-center`}><MdOutlineSmartphone />+91 6207234759</Link>
-                                <Link to={'/'} className={`${contactStyle} lg:items-center`}><IoMdMail />info@webakash1806.com</Link>
+                                <Link to={`tel:6207234759`} target='_blank' className={`${contactStyle} lg:items-center`}><MdOutlineSmartphone />+91 6207234759</Link>
+                                <Link to={`mailto:info@webakash1806.com`} target='_blank' className={`${contactStyle} lg:items-center`}><IoMdMail />info@webakash1806.com</Link>
                                 <Link to={'/'} className={`${contactStyle} lg:items-center`}><FaLocationDot />Varanasi, India</Link>
                             </div>
                         </div>

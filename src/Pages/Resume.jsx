@@ -135,7 +135,7 @@ const Resume = () => {
                                 </div>
                                 <p className='text-[0.98rem] leading-[22px] italic tracking-wide font-200'>
                                     PW Skills, Online</p>
-                                <Link onClick={() => setBackActive(true)} className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-1 px-4 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><IoIosLink className='text-[#18D26E]' />Certificate</Link>
+                                <Link onClick={() => setFullActive(true)} className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-1 px-4 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><IoIosLink className='text-[#18D26E]' />Certificate</Link>
 
                             </div>
                         </div>
@@ -148,7 +148,7 @@ const Resume = () => {
                             </div>
                             <p className='text-[0.98rem] leading-[22px] italic tracking-wide font-200'>
                                 PW Skills, Online</p>
-                            <Link onClick={() => setFullActive(true)} className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-1 px-4 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><IoIosLink className='text-[#18D26E]' />Certificate</Link>
+                            <Link onClick={() => setBackActive(true)} className='flex w-fit items-center justify-start gap-2 bg-[#3a3a3abe] p-1 px-4 rounded-[3px] font-[400] text-[0.95rem] tracking-wide'><IoIosLink className='text-[#18D26E]' />Certificate</Link>
                         </div>
                     </div>
                 </div>

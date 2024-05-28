@@ -24,6 +24,8 @@ const App = () => {
         {/* <Route element={About} path='/about' /> */}
       </Routes>
       {/* <p>Hello</p> */}
+      <div>
+      </div>
       <MdKeyboardDoubleArrowUp onClick={handleScrollToTop} className=' text-white flex items-center justify-center rounded-full p-[0.6rem] bg-[#00A944] fixed right-4 z-[100000] text-[2.7rem] bottom-4 shadow-sm shadow-white cursor-pointer' />
     </div>
   )

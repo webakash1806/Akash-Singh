@@ -36,7 +36,7 @@ const Home = () => {
 
                 <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" className='flex flex-col items-center justify-center gap-1'>
                     <h1 className='text-[1.8rem] text-white font-[500] font-poppins tracking-wide'>Hello - I am</h1>
-                    <p className='font-cor text-[1.9rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[2.6rem] font-[550] text-[#1dd372] tracking-wide lg:tracking-wider text-center'>
+                    <h1 className='font-cor text-[1.9rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[2.6rem] font-[550] text-[#1dd372] tracking-wide lg:tracking-wider text-center'>
                         <Typewriter
                             options={{
                                 strings: ['Akash Kumar Singh', 'Web Developer', 'Web Designer'],
@@ -44,7 +44,7 @@ const Home = () => {
                                 loop: true,
                             }}
                         />
-                    </p>
+                    </h1>
                     <p className='text-[#f2f2f2] text-center font-poppins text-[0.975rem] md:text-[1.1rem] lg:text-[1.2rem] max-w-[30rem] lg:max-w-[40rem] tracking-wide p-1  my-2 md:my-4 md:leading-7 lg:leading-8'>Highly motivated and detail-oriented
                         MERN Stack Web Developer with a strong foundation in front-end and back-end technologies.</p>
 
