@@ -75,7 +75,7 @@ const Resume = () => {
 
                         <div data-aos="fade-up" className='text-white relative  flex flex-col gap-3 pb-3 pl-6 ml-2 border-l-[1.6px] border-[#808080c1] rounded-t-lg' >
                             <div className='w-4 absolute left-[-8.5px] top-[0.5px] h-4 rounded-full bg-[#18D26E]'></div>
-                            <h3 data-aos="fade-up" className='text-[1.2rem] font-semibold text-[#18D26E]'>SECONDARY HIGH EDUCATION (BCOM)</h3>
+                            <h3 data-aos="fade-up" className='text-[1.2rem] font-semibold text-[#18D26E]'>SECONDARY HIGH EDUCATION (BSEB)</h3>
                             <div data-aos="fade-up" className='bg-[#3a3a3abe] w-fit px-3 py-1 rounded-sm'>
                                 <p className='text-[0.85rem] font-cor flex items-center tracking-wide'>201<span className='text-[1rem] pr-1'>9</span> - 202<span className='text-[1rem]'>1</span></p>
                             </div>

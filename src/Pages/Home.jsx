@@ -48,7 +48,7 @@ const Home = () => {
                     <p className='text-[#f2f2f2] text-center font-poppins text-[0.975rem] md:text-[1.1rem] lg:text-[1.2rem] max-w-[30rem] lg:max-w-[40rem] tracking-wide p-1  my-2 md:my-4 md:leading-7 lg:leading-8'>Highly motivated and detail-oriented
                         MERN Stack Web Developer with a strong foundation in front-end and back-end technologies.</p>
 
-                    <Link target='_blank' to="https://drive.google.com/file/d/1r3DyCAMkcAeIE4uch_iv_6wC15jZC0Tw/view?usp=sharing" className="flex items-center justify-center w-full h-20 cursor-pointer">
+                    <Link target='_blank' to="https://drive.google.com/file/d/1Y4voVRQDa_1K9KNsofw0-Vs3GtoetxFp/view?usp=sharing" className="flex items-center justify-center w-full h-20 cursor-pointer">
                         <div
                             className="relative inline-flex items-center justify-start py-[10px] pl-4 pr-12 overflow-hidden font-semibold text-[#00b153] transition-all duration-150 ease-in-out rounded shadow hover:pl-10 hover:pr-6 bg-gray-50 dark:bg-gray-700 dark:text-white dark:hover:text-gray-200 dark:shadow-none group"
                         >
