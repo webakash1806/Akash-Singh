@@ -15,6 +15,7 @@ import { FiGithub } from "react-icons/fi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
+import Skills from '../Components/Skills';
 
 const About = () => {
     const skillsStyle = 'flex  items-center justify-between px-1 pr-2 text-white text-[0.87rem] tracking-wide font-semibold'
@@ -23,12 +24,12 @@ const About = () => {
         AOS.refresh();
     }, []);
     return (
-        <div className='bg-[#0d0c10df] font-poppins flex flex-col items-center justify-center text-white py-10 p-2 overflow-hidden '>
+        <div className='bg-[#0e0e0ff2] font-poppins flex flex-col items-center justify-center text-white py-10 p-2 overflow-hidden '>
             <img src={aboutBg} alt="about us background" className='fixed left-0 top-16 h-[100vh] w-[100%] z-[-20]' />
             <div className='flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-center'>
                 <div>
                     <div data-aos="fade-up" className='flex items-center justify-start gap-2'>
-                        <p className='font-semibold tracking-widest text-[#c6c5c5]'>ABOUT </p>
+                        <p className='font-semibold tracking-widest text-[#c6c5c5] btn-shine'>ABOUT </p>
                         <div className='w-20 h-[0.85px] bg-[#18D26E]'></div>
                     </div>
                     <p data-aos="fade-up" className='text-white text-[1.8rem] tracking-wide font-poppins font-semibold uppercase'>Know more about me</p>
@@ -43,7 +44,7 @@ const About = () => {
                             <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><LiaBirthdayCakeSolid className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Birthday:</span>18th Dec 2004</p>
 
                             <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><CiCalendarDate className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Age:</span>19</p>
-                            <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FaCity className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>City:</span>Varanasi, India</p>
+                            <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><FaCity className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>City:</span>Noida, India</p>
                             <p data-aos="fade-up" className='flex items-center text-[0.9rem] gap-1 tracking-wide   cursor-pointer '><SiFreelancer className='text-[#18D26E] text-[ 1.1rem]' /><span className='font-[500] text-[1rem] tracking-wider'>Freelance:</span>Available</p>
                         </div>
                         <div className='flex flex-col gap-2'>
@@ -61,12 +62,12 @@ const About = () => {
             <div data-aos="fade-up" className='w-full py-8 sm:px-14'>
 
                 <div className='flex flex-col items-center justify-center w-full gap-3 md:gap-8 md:flex-row md:items-end'>
-                    <div className='w-full md:w-[45%] lg:w-[35%] flex flex-col gap-3'>
-                        <div data-aos="fade-up" className='flex items-center justify-start gap-2 py-4'>
+                    <div className='w-full md:w-[90%] lg:w-[70%] flex flex-col'>
+                        <div data-aos="fade-up" className='flex items-center justify-start gap-2 pt-4 '>
                             <p className='font-semibold tracking-widest text-[#c6c5c5]'>SKILLS </p>
                             <div className='w-20 h-[0.85px] bg-[#18D26E]'></div>
                         </div>
-                        <div data-aos="fade-up">
+                        {/* <div data-aos="fade-up">
                             <div className={skillsStyle}><p className='flex items-center justify-center gap-1'><TbBrandHtml5 className='text-[1.2rem] text-[#18D26E]' />HTML</p>
                                 <p>99%</p></div>
                             <progress className="h-[9px] w-full [&::-webkit-progress-bar]:rounded-sm  [&::-webkit-progress-value]:rounded-sm   [&::-webkit-progress-bar]:bg-grey [&::-webkit-progress-value]:bg-[#18D26E] " value="99" max="100"></progress>
@@ -85,10 +86,11 @@ const About = () => {
                             <div className={skillsStyle}><p className='flex items-center justify-center gap-1'><SiTailwindcss className='text-[1.2rem] text-[#18D26E]' />TailwindCSS</p>
                                 <p>95%</p></div>
                             <progress className="h-[9px] w-full [&::-webkit-progress-bar]:rounded-sm  [&::-webkit-progress-value]:rounded-sm   [&::-webkit-progress-bar]:bg-grey [&::-webkit-progress-value]:bg-[#18D26E] " value="95" max="100"></progress>
-                        </div>
+                        </div> */}
+                        <Skills />
 
                     </div>
-                    <div className='w-full md:w-[45%] lg:w-[35%]  flex flex-col gap-3'>
+                    {/* <div className='w-full md:w-[45%] lg:w-[35%]  flex flex-col gap-3'>
                         <div data-aos="fade-up">
                             <div className={skillsStyle}><p className='flex items-center justify-center gap-1'><FaReact className='text-[1.2rem] text-[#18D26E]' />ReactJS</p>
                                 <p>85%</p></div>
@@ -109,10 +111,9 @@ const About = () => {
                                 <p>85%</p></div>
                             <progress className="h-[9px] w-full [&::-webkit-progress-bar]:rounded-sm  [&::-webkit-progress-value]:rounded-sm   [&::-webkit-progress-bar]:bg-grey [&::-webkit-progress-value]:bg-[#18D26E] " value="85" max="100"></progress>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
-
         </div >
     )
 }

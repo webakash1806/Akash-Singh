@@ -68,6 +68,7 @@ const Header = () => {
                         : <FontAwesomeIcon icon={faXmark} className='text-[1.6rem]' />}
                 </div>
                 <img onClick={goHero} src={logo} alt='logo' className='cursor-pointer md:mr-6 lg:mr-10 w-[1.7rem]' />
+
                 <nav className={` text-white md:border-0 shadow-[0px_160px_1000px_#12073ac5] md:shadow-none flex p-4 pb-10 md:p-0 w-screen md:max-w-[80vw] md:bg-transparent bg-[#151515f0] items-center justify-between gap-3 md:gap-0 flex-col absolute 
         ${barActive ? "top-[2.95rem] left-[-60rem] duration-[0.5s]" : "top-[2.85rem] left-0 duration-[0.5s]"}
          md:flex-row md:static `}>
@@ -103,6 +104,13 @@ const Header = () => {
                         }} className={navStyle}>
                             Contact
                         </Link>
+                        <div className='ml-3'>
+                            <button onClick={() => {
+                                goContact()
+                                hamActive()
+                            }} className="Btn">
+                            </button>
+                        </div>
                     </div>
                 </nav>
             </header>
@@ -130,7 +138,7 @@ const Header = () => {
                 <Contact />
 
             </div>
-            <footer className='text-white bg-[#010a0390] backdrop-blur-sm'>
+            <footer className='text-white bg-[#111111] backdrop-blur-sm'>
                 <div className='flex footer-img  relative flex-col xl:flex-row p-[2.5rem_1rem] md:p-[2.5_5rem] gap-8 xl:justify-around'>
                     <div className='flex flex-col gap-2'>
                         <Link onClick={goHero} className='flex items-end gap-[1px] text-[1.2rem]'><img src={logo} className='w-[2rem]' alt="logo" /></Link>
@@ -167,7 +175,7 @@ const Header = () => {
                                 <Link to={'/'} className={`${contactStyle} lg:items-center`}><CiClock1 />09:00 - 07:00</Link>
                                 <Link to={`tel:6207234759`} target='_blank' className={`${contactStyle} lg:items-center`}><MdOutlineSmartphone />+91 6207234759</Link>
                                 <Link to={`mailto:info@webakash1806.com`} target='_blank' className={`${contactStyle} lg:items-center`}><IoMdMail />info@webakash1806.com</Link>
-                                <Link to={'/'} className={`${contactStyle} lg:items-center`}><FaLocationDot />Varanasi, India</Link>
+                                <Link to={'/'} className={`${contactStyle} lg:items-center`}><FaLocationDot />Noida, India</Link>
                             </div>
                         </div>
                     </div>
